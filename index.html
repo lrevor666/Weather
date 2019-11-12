@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./css/style.css">
+		<title></title>
+	</head>
+	<body>
+
+		<div class="box">
+			<!-- 移动端顶部和搜索导航栏 -->
+			<div class="nav">
+				<!-- 移动端头部 -->
+				<div class="top"></div>
+				<!-- 搜索框 -->
+				<div class="weather-nav">
+					<!-- 位置图标 城市名字 -->
+					<div class="fl">
+						<span class="fl nav-left"></span>
+						<span class="fl city-name"></span>
+					</div>
+					<!-- 搜索框 -->
+					<div class="fl nav-right">
+						<input id="input-text" type="text" placeholder="如:广州" />
+						<span class="search"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="weather-box">
+
+				<!-- 当天天气 -->
+				<div class="today-weather">
+					<!-- 日期加星期几 -->
+					<div class="clearfix">
+						<span class="fl date"></span>
+						<span class="fl week"></span>
+					</div>
+					<!-- 当前温度 天气情况 -->
+					<div class="tem-box clearfix">
+						<span class="fl wendu tem"></span>
+						<div class="fl tem-box-right">
+							<div class="wea-icon wea"></div>
+							<div class="air_level"></div>
+						</div>
+					</div>
+					<!-- 风向 级别 -->
+					<div class="clearfix">
+						<span class="wind win"></span>
+						<span class="win_speed"></span>
+						<span class="win_meter"></span>
+					</div>
+				</div>
+
+				<!-- 24小时天气 -->
+				<div class="twofour">
+					<div class="hours-title">24小时天气</div>
+					<div class="hours-box">
+						<ul id="hoursWeather">
+							
+						</ul>
+					</div>
+				</div>
+
+
+				<!-- 未来6天天气 -->
+				<div class="future">
+					<div class="future-title">未来6天天气</div>
+					<div class="future-box">
+						<ul id="futureWeather">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/rem.js"></script>
+		<script src="js/jquery-3.4.1.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+</html>

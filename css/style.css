@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: .16rem;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0;
+}
+
+.auto-img {
+	width: 100%;
+	display: block;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.box {
+	background: url(../images/bg1.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+}
+
+.nav {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.top {
+	height: 24px;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.weather-nav {
+	height: .44rem;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.nav-left {
+	width: .2rem;
+	height: .2rem;
+	background: url(../images/location.png) no-repeat center center;
+	background-size: .2rem .2rem;
+	margin: .12rem 0 0 .12rem;
+}
+
+.city-name {
+	font-size: .16rem;
+	margin: .12rem 0 0 .1rem;
+	color: #FFFFFF;
+	width: 1rem;
+}
+
+.nav-right {
+	width: calc(100% - 1.62rem);
+	height: .44rem;
+	margin-top: .04rem;
+	height: .36rem;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	border-radius: .14rem;
+	background-image: linear-gradient(to left, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .5) 100%);
+}
+
+.nav-right input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0;
+	display: block;
+	margin-top: .1rem;
+	color: white;
+	width: calc(100% - .2rem);
+	float: left;
+}
+
+.nav-right span {
+	width: .2rem;
+	height: .2rem;
+	display: block;
+	float: left;
+	margin-top: .08rem;
+}
+
+.search {
+	background: url(../images/search.png) no-repeat center center;
+	background-size: .2rem .2rem;
+}
+
+.weather-box {
+	position: relative;
+	z-index: 1;
+	height: calc(100% - 24px - .44rem);
+	overflow-y: auto;
+}
+
+.win_speed {
+	margin-right: 10px;
+}
+
+.today-weather {
+	color: #FFFFFF;
+	margin: .3rem;
+	padding: .3rem;
+	border-radius: .15rem;
+	box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, .55) inset;
+}
+
+.date {
+	margin-right: .3rem;
+	display: block;
+}
+
+.tem-box {
+	margin-top: .3rem;
+}
+
+.tem-box span {
+	font-size: .6rem;
+	width: 1.3rem;
+	height: .79rem;
+}
+
+.tem-box-right {
+	margin: .2rem;
+}
+
+.wea-icon {
+	width: .2rem;
+	height: .2rem;
+	background-size: .2rem .2rem;
+}
+
+.wind {
+	margin-right: .3rem;
+}
+
+.twofour {
+	margin-top: .2rem;
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.hours-title {
+	padding: .04rem;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.hours-box {
+	text-align: center;
+	height: 1.16rem;
+	overflow-x: auto;
+}
+
+.hours-box ul {
+	height: 1.16rem;
+	width: 28.8rem;
+}
+
+.hours-box ul li {
+	width: 1.2rem;
+	float: left;
+}
+
+.hours-box ul li div {
+	margin-bottom: .08rem;
+}
+
+.hours-icon {
+	width: .2rem;
+	height: .2rem;
+	margin: 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: .2rem .2rem;
+}
+
+.future {
+	margin-top: .2rem;
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.future-title {
+	padding: .04rem;
+	border-bottom: 1px solid #FFFFFF
+}
+
+.future-box {
+	padding: .08rem;
+}
+
+.future-box ul li {
+	padding: .2rem 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.future-box ul li span {
+	margin-right: .3rem;
+}
+
+.future-icon {
+	width: .2rem;
+	height: .2rem;
+	background: url(../images/qing.png) no-repeat center center;
+	background-size: .2rem .2rem;
+	display: inline-block;
+}
